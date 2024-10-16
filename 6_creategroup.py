@@ -20,7 +20,7 @@ password_textbox.send_keys(password)
 submit_button = driver.find_element(By.XPATH, "//button[@type='submit']")
 submit_button.click()
 
-sleep(5)
+sleep(10)
 
 elements = driver.find_elements(By.XPATH, "//h3[@class='mt-2 text-2xl font-semibold text-gray-900']")
 

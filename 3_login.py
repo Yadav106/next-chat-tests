@@ -27,9 +27,6 @@ if elements:
 else:
     print("Error while logging in")
 
-a_tag = driver.find_element(By.XPATH, "//a[contains(@class, 'group') and @href='/conversations']")
-a_tag.click()
-
 while 1:
     continue
 
